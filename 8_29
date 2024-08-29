@@ -1,0 +1,7 @@
+#this is where the fastq files r located
+cd /media/saxtonlab/Disk_3/datasets/cb4-3c15ppt_1360144/Hi-C/CQU4000771/ILMI117_redo
+sudo apt install seqtk
+seqtk seq -a 1360145_S4_R1_001.fastq.gz > 1360145_S4_R1_001.fasta
+#it worked? yessss
+seqtk seq -a 1360145_S4_R2_001.fastq.gz > 1360145_S4_R1_001.fasta
+#it worked againnnn
